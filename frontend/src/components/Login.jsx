@@ -78,8 +78,8 @@ const handleSwitchMode=() => {
 }
 
 const FIELDS = [
-  { name: "email", type: "email", placeholder: "  Email", icon: Mail },
-  { name: "password", type: showPassword ? "text" :"password", placeholder: "  Password", icon: Lock, isPassword: true },
+  { name: "email", type: "email", placeholder: "  E-posta", icon: Mail },
+  { name: "password", type: showPassword ? "text" :"password", placeholder: "  Şifre", icon: Lock, isPassword: true },
 ];
 
   return (
@@ -94,7 +94,7 @@ const FIELDS = [
           Tekrar Hoşgeldin
         </h2>
         <p className='text-gray-500 dark:text-gray-400 text-sm mt-1 mb-3'>
-          WebGörev'e devam etmek için giriş yapınız.
+          TaskManager'a devam etmek için giriş yapınız.
         </p>
         <form onSubmit={handleSubmit} className='space-y-4'>
           {FIELDS.map(({name,type,placeholder,icon :Icon, isPassword}) =>(

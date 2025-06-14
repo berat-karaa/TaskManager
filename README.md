@@ -9,7 +9,6 @@ TaskManager is a modern and user-friendly task management application developed 
 - 🏷️ Categorize Tasks by Priority Levels
 - 📅 Set Due Dates for Tasks
 - ✅ Mark Tasks as Completed
-- 🌓 Dark/Light Theme Support
 - 📱 Responsive Design
 
 ## Technologies

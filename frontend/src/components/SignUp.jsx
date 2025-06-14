@@ -33,9 +33,9 @@ const SignUp = ({onSwitchMode}) => {
     }
   }
   const FIELDS = [
-  { name: "name", type: "text", placeholder: "Full Name", icon: User },
-  { name: "email", type: "email", placeholder: "Email", icon: Mail },
-  { name: "password", type: "password", placeholder: "Password", icon: Lock },
+  { name: "name", type: "text", placeholder: "Ad Soyad", icon: User },
+  { name: "email", type: "email", placeholder: "E-posta", icon: Mail },
+  { name: "password", type: "password", placeholder: "Şifre", icon: Lock },
 ];
 
   return (
@@ -50,7 +50,7 @@ const SignUp = ({onSwitchMode}) => {
           Hesap Oluştur
         </h2>
         <p className='text-gray-500 dark:text-gray-400 text-sm mt-1'>
-          WebGöreve Katıl ve Görevlerini Yönet
+          TaskManager'a Katıl ve Görevlerini Yönet
         </p>
 
       </div>
@@ -70,7 +70,7 @@ const SignUp = ({onSwitchMode}) => {
           </div>
         ))}
         <button type='submit' className={BUTTONCLASSES} disabled={loading}>
-          {loading ? "Signing Up..." : <><UserPlus className='w-4 h-4' />Sign Up</>}
+          {loading ? "Giriş yapılıyor..." : <><UserPlus className='w-4 h-4' />Giriş Yap</>}
 
         </button>
       </form>
