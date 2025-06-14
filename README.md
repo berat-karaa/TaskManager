@@ -91,21 +91,40 @@ npm run dev
 ## Project Structure
 
 ```
-görevYöneticisi/
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── assets/
-│   │   └── App.jsx
-│   └── package.json
+TaskManager/
 ├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── middleware/
-│   └── server.js
-└── README.md
+│   ├── routes/         # API endpoints and route handlers
+│   ├── models/         # Database models and schemas
+│   ├── controllers/    # Business logic controllers
+│   ├── middleware/     # Middleware functions (auth, validation)
+│   ├── config/         # Configuration files
+│   ├── node_modules/   # Node.js dependencies
+│   ├── server.js       # Main server file
+│   ├── package.json    # Node.js project configuration
+│   └── package-lock.json # Dependency lock file
+│
+├── frontend/
+│   ├── src/           # Source code files
+│   │   ├── components/  # React components
+│   │   ├── pages/      # Page components
+│   │   ├── services/   # API services
+│   │   ├── utils/      # Utility functions
+│   │   ├── styles/     # CSS/SCSS files
+│   │   └── App.js      # Main React component
+│   ├── public/        # Static assets
+│   ├── node_modules/  # Node.js dependencies
+│   ├── index.html     # Main HTML file
+│   ├── tailwind.config.js # Tailwind CSS configuration
+│   ├── package.json   # Node.js project configuration
+│   ├── package-lock.json # Dependency lock file
+│   ├── vite.config.js # Vite build configuration
+│   ├── eslint.config.js # ESLint configuration
+│   └── README.md      # Frontend documentation
+│
+├── requirements.txt   # Python backend dependencies
+├── README.md         # Project documentation
+├── LICENSE          # MIT License file
+└── .gitignore      # Git ignore rules
 ```
 
 > **Note:** Make sure your MongoDB server is running and accessible.  
