@@ -30,22 +30,22 @@ TaskManager is a modern and user-friendly task management application developed 
 - Bcrypt
 
 🔐 Register Page
-![Register](./screenshots/register.png)
+![Register](./Screenshots/register.png)
 
 🔓 Login Page
-![Login](./screenshots/login.png)
+![Login](./Screenshots/login.png)
 
 🧑‍💼 Profile Page
-![Profile](./screenshots/profile.png)
+![Profile](./Screenshots/profile.png)
 
 📊 Dashboard
-![Dashboard](./screenshots/dashboard.png)
+![Dashboard](./Screenshots/dashboard.png)
 
 📋 Pending Tasks
-![Pending Tasks](./screenshots/pending.png)
+![Pending Tasks](./Screenshots/pending.png)
 
 ✅ Completed Tasks
-![Completed Tasks](./screenshots/completed.png)
+![Completed Tasks](./Screenshots/completed.png)
 
 ## Installation
 
