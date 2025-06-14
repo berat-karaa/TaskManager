@@ -85,7 +85,7 @@ npm start
 For frontend:
 ```bash
 cd frontend
-npm start
+npm run dev
 ```
 
 ## Project Structure
@@ -107,6 +107,9 @@ görevYöneticisi/
 │   └── server.js
 └── README.md
 ```
+
+> **Note:** Make sure your MongoDB server is running and accessible.  
+> If you're using MongoDB Atlas or a remote database, update the `MONGODB_URI` accordingly.
 
 ## Contributing
 
