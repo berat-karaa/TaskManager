@@ -28,6 +28,7 @@ TaskManager is a modern and user-friendly task management application developed 
 - JWT Authentication
 - Bcrypt
 
+### Screenshots
 
 🔐 Register Page
 
