@@ -30,27 +30,27 @@ TaskManager is a modern and user-friendly task management application developed 
 
 ## Screenshots
 
-🔐 Register Page
+###🔐 Register Page
 
 ![Register](./Screenshots/register.png)
 
-🔓 Login Page
+###🔓 Login Page
 
 ![Login](./Screenshots/login.png)
 
-🧑‍💼 Profile Page
+###🧑‍💼 Profile Page
 
 ![Profile](./Screenshots/profile.png)
 
-📊 Dashboard
+###📊 Dashboard
 
 ![Dashboard](./Screenshots/dashboard.png)
 
-📋 Pending Tasks
+###📋 Pending Tasks
 
 ![Pending Tasks](./Screenshots/pending.png)
 
-✅ Completed Tasks
+###✅ Completed Tasks
 
 ![Completed Tasks](./Screenshots/completed.png)
 
